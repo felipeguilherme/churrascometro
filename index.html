@@ -3,10 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./script.js"></script>
-    <title>Document</title>
+    <title>Churrascometro</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-    
+
+
+    <div class="container">
+        <h1>Churrascometro</h1>
+        <input id="adultos" type="number" name="adultos" placeholder="Adultos"> 
+        <input id="criancas" type="number" name="criancas" placeholder="Crianças"> 
+        <input id="duracao" type="number" name="duracao" placeholder="Duração (h)"> 
+        <button onclick="calcular()">Calcular</button>
+
+        <div id="resultado"></div>
+
+    </div>
+
+
+    <script src="./script.js"></script>
 </body>
 </html>
